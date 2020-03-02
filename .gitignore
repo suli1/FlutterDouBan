@@ -20,6 +20,7 @@
 .vscode/
 
 # Flutter/Dart/Pub related
+.flutter-plugins-dependencies
 **/doc/api/
 .dart_tool/
 .flutter-plugins
@@ -29,11 +30,8 @@
 build/
 
 # Android related
-**/android/**/gradle-wrapper.jar
 **/android/.gradle
 **/android/captures/
-**/android/gradlew
-**/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
 
@@ -57,6 +55,7 @@ build/
 **/ios/Flutter/App.framework
 **/ios/Flutter/Flutter.framework
 **/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
 **/ios/Flutter/app.flx
 **/ios/Flutter/app.zip
 **/ios/Flutter/flutter_assets/
